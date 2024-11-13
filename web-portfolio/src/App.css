@@ -190,13 +190,19 @@ p {
 }
 
 /* project section */
+.project-section {
+  padding: 40px;
+  margin: 20px auto;
+}
+
+
 .projects h2 {
   text-align: center;
   padding-top: 20px;
 }
 .projects-container {
-max-width: 70%;
-margin: 0 auto;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .proj-grid {
@@ -205,7 +211,7 @@ margin: 0 auto;
   grid-template-columns: repeat(3, 1fr);
   /* justify-items: center;
   align-items: stretch; */
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -232,7 +238,7 @@ padding-bottom: 9px;
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .project-card::before {
@@ -343,12 +349,12 @@ padding-bottom: 9px;
   font-size:large;
 }
 .proj-overlay-img img{
-  max-width: 100%;
+  max-width: 80%;
   max-height: auto;
   height: auto;
   object-fit: contain;
   margin-bottom: 20px;
-  width:  600px;
+  /* width:  600px; */
   height: 400px;
   object-fit:cover;
   margin-bottom: 0;
@@ -400,6 +406,25 @@ padding-bottom: 9px;
   background-color: #e24c4c;
 }
 
+.contact-section {
+  padding-bottom: 40px;
+  margin-bottom: 10px auto;
+}
+.contact-section h2{
+
+  margin-bottom: 6px;
+}
+.contact-section a{
+  margin-bottom: 2px;
+}
+.contact-section p{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.contact-section a:hover{
+  font-weight: bold;
+}
+
 /* Footer */
 .footer {
   background-color: #333;
@@ -411,14 +436,72 @@ padding-bottom: 9px;
 
 /* responsive styles */
 @media (max-width: 1200px) {
-  
+  .project-overlay-container {
+      max-width: 70%;
+  }
+  .proj-grid {
+    gap: 10px;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
+  .education-row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project-section {
+    padding: 0;
+    margin: 0;
+  }
+  .profile-picture {
+    width: 30%;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+  .projects-container {
+    max-width: 100%;
+  }
 
+  .project-overlay-container {
+    max-width: 90%;
+  }
+  .nav-content {
+    display:block;
+    align-items: center;
+    justify-content:center;
+    max-width: 100%;
+  }
+  .skills-section {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+  .skills-column-right{
+    margin: 0;
+  }
+  .skills-column-left{
+    margin: 0;
+  }
+  .home-section {
+    height: 60vh;
+  }
 }
 
 @media (max-width: 480px) {
-
+  .project-overlay {
+    padding: 0;
+  }
+  .profile-picture {
+    width: 40%;
+    border-radius: 10%;
+    margin-bottom: 10px;
+  }
+  .proj-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project-overlay-container {
+    max-width: 99%;
+  }
 
 }

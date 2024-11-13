@@ -24,7 +24,7 @@ const About = () => (
                 <div className="education-item">
                 <h3>Bachelors In Software Engineering</h3>
                 <p><strong>Western Governors University</strong>, Salt lake City, UT</p>
-                <p><em>2025 - Current</em></p> 
+                <p><em>2024 - Current</em></p> 
                 </div> 
             </div>
         </div>
