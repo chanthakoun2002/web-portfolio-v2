@@ -3,7 +3,7 @@
 Welcome to my personal web portfolio! This port showcases my skills, projects, and experience as a developer.
 
 ## Live Site
-Check out the live version of my portfolio here: [https://web-portfolio-v2-kappa.vercel.app/](https://web-portfolio-v2-kappa.vercel.app/)
+Check out the live version of my portfolio here: [andrewchanthakoun.com](https://andrewchanthakoun.com/)
 
 ## Technologies Used
 This portfolio was built using the following technologies:
