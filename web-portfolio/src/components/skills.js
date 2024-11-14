@@ -23,7 +23,6 @@ const Skills = () => (
         <div className='skills-column-right'>
             <h3>Skills</h3>
             <ul>
-
                 <li>Front-End Web Development</li>
                 <li>Back-End Web Development</li>
                 <li>Data Structures & Algorithms</li>

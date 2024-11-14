@@ -4,15 +4,16 @@ const Overlay = ({ project, onClose }) => {
   const [imageIndex, setImageIndex] = useState(0);
   if (!project) return null; 
 
+  // Goes through array of images for the model
   const nextImage = () => {
     setImageIndex((prevIndex) =>
-      prevIndex === 0 ? project.images.length - 1 : prevIndex - 1
+      prevIndex === project.images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const prevImage = () => {
     setImageIndex((prevIndex) =>
-      prevIndex === project.images.length - 1 ? 0 : prevIndex + 1
+      prevIndex === 0 ? project.images.length - 1 : prevIndex - 1
     );
   };
 

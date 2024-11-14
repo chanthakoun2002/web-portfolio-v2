@@ -2,10 +2,19 @@ import React, { useState } from 'react';
 import ProjectCard from './projectCard';
 import Overlay from './overlay';
 
+//there's probably a better way of doing this
 import portfolioImg1 from '../media/projectScreenshots/Screenshot 2024-11-12 185202.png';
 import portfolioImg2 from '../media/projectScreenshots/Screenshot 2024-11-12 185211.png';
 import pomodoroImg1 from '../media/projectScreenshots/pomodoro.png';
+import pomodoroImg2 from '../media/projectScreenshots/pomdoro2.png';
+import pomodoroImg3 from '../media/projectScreenshots/pomodoro3.png';
+import pomodoroImg4 from '../media/projectScreenshots/pomodoro4.png';
 import gameImg1 from '../media/projectScreenshots/GameScreenSwordAdventurer.png';
+import gameImg2 from '../media/projectScreenshots/gme2.png';
+import gameImg3 from '../media/projectScreenshots/gme3.png';
+import gameImg4 from '../media/projectScreenshots/gme4.png';
+import gameImg5 from '../media/projectScreenshots/gme5.png';
+import gameImg6 from '../media/projectScreenshots/GameScreenSwordAdventurer.png';
 import inventoryImg1 from '../media/projectScreenshots/InvenMangApp.png';
 
 import placeholder from '../media/underconstrucntion.jpg';
@@ -15,7 +24,7 @@ const projectData = [
     title: 'Pomodoro Timer',
     titleDescription: 'Web Application',
     image: [pomodoroImg1],
-    images: [pomodoroImg1],
+    images: [pomodoroImg1, pomodoroImg2, pomodoroImg3, pomodoroImg4],
     description: 'A pomodoro timer ',
     techDescription: 'HTML/CSS | Javascript | React.js | MongoDB | Node.js | Express.js',
     githubLink: 'https://github.com/chanthakoun2002/pomodoro-application',
@@ -44,7 +53,7 @@ const projectData = [
     title: 'Sword Adventurer',
     titleDescription: 'Video Game',
     image: [gameImg1],
-    images: [gameImg1],
+    images: [gameImg1,gameImg2,gameImg3,gameImg4,gameImg5,gameImg6],
     description: 'An Isometric 2D action fighter game where you go around and try to slay as many slimes as you can before you die, created using C# in the unity engine.',
     techDescription: 'C# | Unity Engine',
     githubLink: 'https://github.com/chanthakoun2002/game-dev-project-2d-isometric-rpg',
