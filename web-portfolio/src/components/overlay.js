@@ -16,6 +16,12 @@ const Overlay = ({ project, onClose }) => {
       prevIndex === 0 ? project.images.length - 1 : prevIndex - 1
     );
   };
+  
+  //closes overlay and resets image index and prevents index value transfering to other overlays.
+  const closeOverlay = () => {
+    setImageIndex(0);
+    onClose();
+  };
 
   return (
     <div className="project-overlay">
@@ -41,7 +47,7 @@ const Overlay = ({ project, onClose }) => {
                 </div>
             </div>
             <div className="proj-overlay-footer">
-                <button className="footer-close-btn" onClick={onClose}>Close</button>
+                <button className="footer-close-btn" onClick={closeOverlay}>Close</button>
             </div>  
         </div>
     </div>

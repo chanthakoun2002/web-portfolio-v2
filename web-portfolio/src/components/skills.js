@@ -11,9 +11,9 @@ const Skills = () => (
                 <li>Java</li>
                 <li>C#</li>
                 <li>Ruby</li>
-                <li>Microsoft SQL</li>
+                <li>Microsoft SQL server</li>
                 <li>MySQL</li>
-                <li>NoSQL</li>
+                <li>MongoDB (NoSQL)</li>
                 <li>React.js</li>
                 <li>Express.js</li>
                 <li>Vue.js</li>

@@ -28,7 +28,7 @@ const projectData = [
     description: 'A pomodoro timer ',
     techDescription: 'HTML/CSS | Javascript | React.js | MongoDB | Node.js | Express.js',
     githubLink: 'https://github.com/chanthakoun2002/pomodoro-application',
-    siteLink: 'https://github.com/chanthakoun2002/web-portfolio' 
+    siteLink: 'https://pomodoro-application-omega.vercel.app/'  
   },
   
   {
