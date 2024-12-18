@@ -17,7 +17,7 @@ const Overlay = ({ project, onClose }) => {
     );
   };
   
-  //closes overlay and resets image index and prevents index value transfering to other overlays.
+  //this closes overlay and resets image index and prevents index value transfering to other overlays.
   const closeOverlay = () => {
     setImageIndex(0);
     onClose();
@@ -41,9 +41,9 @@ const Overlay = ({ project, onClose }) => {
                 <div className="proj-overlay-information">
                     <p>{project.description}</p>
                     <h4>{project.techDescription}</h4>
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href={project.githubLink}>Github</a>
                     <br/>
-                    <a href={project.siteLink} target="_blank" rel="noopener noreferrer">Try It Out?</a>
+                    <a href={project.siteLink}>Try It Out?</a>
                 </div>
             </div>
             <div className="proj-overlay-footer">

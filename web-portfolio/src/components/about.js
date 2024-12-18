@@ -1,4 +1,3 @@
-import React from 'react';
 import ProfileImg from '../media/20240616_213408314_iOS.jpg';
 
 const About = () => (

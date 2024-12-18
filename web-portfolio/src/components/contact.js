@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Contact = () => (
     <section id="contact" className="contact-section">

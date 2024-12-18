@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import logo from '../media/favicon-32x32.png';
 

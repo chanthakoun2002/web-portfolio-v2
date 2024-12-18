@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ProjectCard = ({ title, images, onClick }) => (
     <div className="project-card" onClick={onClick}>

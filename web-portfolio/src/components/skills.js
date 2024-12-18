@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Skills = () => (
     <section id='skills' className='skills-section'>
