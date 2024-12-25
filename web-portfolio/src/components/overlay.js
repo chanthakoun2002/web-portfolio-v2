@@ -43,7 +43,9 @@ const Overlay = ({ project, onClose }) => {
                     <h4>{project.techDescription}</h4>
                     <a href={project.githubLink}>Github</a>
                     <br/>
-                    <a href={project.siteLink}>Try It Out?</a>
+                    {/* <a href={project.siteLink}>Try It Out?</a> */}
+                    {project.siteLink && <a href={project.siteLink}>Try It Out TEST?</a>}
+
                 </div>
             </div>
             <div className="proj-overlay-footer">

@@ -25,7 +25,7 @@ const projectData = [
     titleDescription: 'Web Application',
     image: [pomodoroImg1],
     images: [pomodoroImg1, pomodoroImg2, pomodoroImg3, pomodoroImg4],
-    description: 'A pomodoro timer ',
+    description: 'A pomodoro timer created using the MERN stack to help users better manage there time and productivity.',
     techDescription: 'HTML/CSS | Javascript | React.js | MongoDB | Node.js | Express.js',
     githubLink: 'https://github.com/chanthakoun2002/pomodoro-application',
     siteLink: 'https://pomodoro-application-omega.vercel.app/'  
@@ -47,7 +47,6 @@ const projectData = [
     description: 'An inventory management web application with CRUD operations to handle user login/registration and authentication. Allows users to alter inventory items and create orders that update the data in a noSQL database.',
     techDescription: 'HTML/CSS | javascript | Express.js | MongoDB',
     githubLink: 'https://github.com/chanthakoun2002/Inventory-management-api',
-    siteLink: 'https://github.com/chanthakoun2002/Inventory-management-api'
   },
   {
     title: 'Sword Adventurer',
@@ -68,7 +67,6 @@ const projectData = [
     description: '(•‿•)',
     techDescription: 'More projects coming soon...',
     githubLink: 'https://github.com/chanthakoun2002/web-portfolio',
-    siteLink: 'https://github.com/chanthakoun2002/web-portfolio'
   },
   {
     title: 'Under Construction',
@@ -77,7 +75,6 @@ const projectData = [
     description: '(•‿•)',
     techDescription: 'More projects coming soon...',
     githubLink: 'https://github.com/chanthakoun2002/web-portfolio',
-    siteLink: 'https://github.com/chanthakoun2002/web-portfolio'
   },
 ];
 

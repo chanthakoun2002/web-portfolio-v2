@@ -431,7 +431,11 @@ padding-bottom: 9px;
   color: #eee;
   height: auto;
   padding: 5px;
-  margin-top: 10px;
+  /* margin-top: 5px; */
+}
+.footer p {
+  margin: 2px;
+  font-size: 16px;
 }
 
 /* responsive styles */
@@ -473,6 +477,16 @@ padding-bottom: 9px;
     align-items: center;
     justify-content:center;
     max-width: 100%;
+  }
+  .nav-content a{
+    /* display:block; */
+    align-items: center;
+    justify-content:center;
+  }
+  .nav-links{
+    /* display:block; */
+    align-items: center;
+    justify-content:center;
   }
   .skills-section {
     grid-template-columns: repeat(1, 1fr); 
