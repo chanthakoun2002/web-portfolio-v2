@@ -44,7 +44,7 @@ const Overlay = ({ project, onClose }) => {
                     <a href={project.githubLink}>Github</a>
                     <br/>
                     {/* <a href={project.siteLink}>Try It Out?</a> */}
-                    {project.siteLink && <a href={project.siteLink}>Try It Out TEST?</a>}
+                    {project.siteLink && <a href={project.siteLink}>Try It Out?</a>}
 
                 </div>
             </div>
